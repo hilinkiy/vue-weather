@@ -1,5 +1,4 @@
 <template>
-  <main class="main">
     <section class="daily">
       <div class="container daily__content">
         <div class="daily__content-btns">
@@ -15,7 +14,6 @@
         </div>
       </div>
     </section>
-  </main>
 </template>
 
 <script>
@@ -32,10 +30,8 @@ export default {
 </script>
 
 <style>
-.daily__content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.daily {
+  padding: 20px 0;
 }
 
 .daily__content-btns{
@@ -81,7 +77,7 @@ export default {
   width: 100%;
   height: 240px;
   margin-top: 10px;
-  padding: 20px;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;

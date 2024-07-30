@@ -34,7 +34,12 @@ export default {
   },
 };
 </script>
- <style lang="scss">
+
+ <style lang="scss" scoped>
+ .wrapper {
+   height: 100vh;
+ }
+
 .loading__wrapper {
   height: 100vh;
   display: flex;
